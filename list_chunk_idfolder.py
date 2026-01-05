@@ -18,7 +18,7 @@ Usage examples:
   # Copy folders chunk-by-chunk into /tmp/dest (for each chunk, create subfolder chunk_1, chunk_2...)
   python list_and_chunk_id_folders.py -s "/path/to/main" -i ids.txt --chunk-size 20 --process-chunks copy --process-dest "/tmp/dest"
 
-Author: Your Name
+Author: HARITIMA ATRI
 """
 
 from pathlib import Path
